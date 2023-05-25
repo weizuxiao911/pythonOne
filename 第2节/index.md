@@ -138,7 +138,7 @@
 
 ```experiment
 {
-    'title':"请打开shell工具，输入ls命令",
+    "title":"请打开shell工具，输入ls命令",
     "tool":"shell"
 }
 ```{{active 00:00:10.000}}
@@ -166,10 +166,10 @@
 
 ```validate
 {
-  "title": "请打开资源管理器index.js文件，点击运行",
+  "title": "请打开资源管理器index.py文件，点击运行",
   "tool": "run",
   "params": {
-    "path":"/index.js"
+    "path":"/index.py"
   }
 }
 ```{{active 00:03:13}}
